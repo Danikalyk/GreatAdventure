@@ -16,7 +16,7 @@ import (
 
 func main() {
 	fmt.Println("Бот запущен")
-	bot, err := tgbotapi.NewBotAPI("7351450841:AAEa0N52frkj7P_Lpd4V_MHYxKMpqDWeOUw")
+	bot, err := tgbotapi.NewBotAPI("")
 	if err != nil {
 		log.Panic(err)
 	}
